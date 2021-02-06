@@ -6,11 +6,8 @@ $password = '';
 $dbhost = 'localhost';
    
   
-// Database name is gfg 
 $database = 'books_db';  
   
-// Server is localhost with 
-// port number 3308 
 $servername='localhost'; 
 $mysqli = new mysqli($servername, $user,  
                 $password, $database); 
